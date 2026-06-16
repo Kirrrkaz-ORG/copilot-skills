@@ -17,15 +17,30 @@
 
 ## Установка
 
+> **Не знаешь как установить?** Читай подробную инструкцию в [главном README репозитория](../../README.md#-установка-навыка--пошагово).
+
+### Кратко — через Проводник (Windows)
+
+1. Скачай репозиторий как ZIP (кнопка **Code → Download ZIP**)
+2. Распакуй архив
+3. Вставь в адресную строку Проводника: `%USERPROFILE%\.copilot\skills`
+4. Если папки нет — создай: `.copilot` → внутри `skills`
+5. Скопируй папку `pdf-table-digitize` целиком в `skills`
+6. Перезапусти VS Code
+
+### Кратко — через терминал
+
 ```powershell
-# Windows
-Copy-Item -Recurse "." "$env:USERPROFILE\.copilot\skills\pdf-table-digitize"
+# Windows PowerShell — из папки с распакованным архивом:
+Copy-Item -Recurse ".\skills\pdf-table-digitize" "$env:USERPROFILE\.copilot\skills\"
 ```
 
 ```bash
-# macOS / Linux
-cp -r . ~/.copilot/skills/pdf-table-digitize
+# macOS / Linux — из папки с распакованным архивом:
+cp -r ./skills/pdf-table-digitize ~/.copilot/skills/
 ```
+
+> После установки перезапусти VS Code.
 
 ---
 
