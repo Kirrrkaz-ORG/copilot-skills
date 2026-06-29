@@ -14,6 +14,7 @@
 | 2 | [journal-to-vedomost](./skills/journal-to-vedomost/) | Генерация зачётных ведомостей (.docx) из скриншотов журнала | `зачётная ведомость`, `перенести оценки`, `ведомость из журнала` |
 | 3 | [exam-tickets-generator](./skills/exam-tickets-generator/) | Генерация экзаменационных билетов и эталонных ответов в Word | `создать билеты`, `сгенерировать КИМ`, `билеты по шаблону` |
 | 4 | [loom-tz-analyzer](./skills/loom-tz-analyzer/) | Анализ технических заданий из Loom видео → структурированное ТЗ | `loom`, `ТЗ из видео`, `проанализируй видео`, `требования из loom` |
+| 5 | [dev-setup](./skills/dev-setup/) | Автоматизация setup локального dev окружения (Next.js + Supabase) | `настрой окружение`, `dev setup`, `создай dev базу`, `setup environment` |
 
 ---
 
